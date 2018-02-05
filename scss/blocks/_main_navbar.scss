@@ -1,0 +1,124 @@
+.main_navbar_container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 0 15px;
+  padding:15px 40px;
+  &-item{
+    display: flex;
+    align-items: center;
+
+    &__favorite{
+      margin-left:15px;
+      &-link{
+        position: relative;
+        img{
+
+        }
+        &:after{
+          content:"3";
+          background:#f17171;
+          border-radius:18px;
+          width:18px;
+          font-size: 12px;
+          position: absolute;
+          left: 15px;
+          top:8px;
+          color:#fff;
+          text-align: center;
+          height:18px;
+        }
+      }
+    }
+    &__catalog{
+      margin-right:30px;
+      p{
+        font-weight: 800;
+        text-transform: uppercase;
+        display: inline-block;
+      }
+      i{
+        margin-right:25px;
+        float:left;
+      }
+    }
+    &__account{
+      margin-left:15px;
+      &-link{
+        position: relative;
+        color:#000;
+        display: flex;
+        align-items: center;
+        &:after{
+          position: absolute;
+          content:"";
+          width:7px;
+          height:4px;
+          left: 32px;
+          bottom: 5px;
+          background: url(../images/account_arrow.png);
+        }
+        p{
+          display: block;
+          float:right;
+        }
+        img{
+          margin-right:15px;
+          float:left;
+          height:100%;
+          width: 100%;
+        }
+      }
+
+    }
+    &__cart{
+      padding:5px 10px;
+      background: #f2f6f8;
+      border-radius: 10px;
+      &-link{
+        position: relative;
+        &:after{
+          content:"1";
+          background:#4bb44b;
+          border-radius:18px;
+          width:18px;
+          font-size: 12px;
+          position: absolute;
+          left: 15px;
+          top:8px;
+          color:#fff;
+          text-align: center;
+          height:18px;
+        }
+        img{
+          margin-right:30px;
+        }
+      }
+
+      p{
+        float:right;
+        padding-top:3px;
+        text-transform: uppercase;
+      }
+    }
+    &__search{
+      background: #f2f6f8;
+      border-radius: 10px;
+      padding:5px 10px;
+      img{
+        float:left;
+        margin-right:15px;
+      }
+      input{
+        font-size: 14px;
+        background: transparent;
+        border:0 none;
+        outline: none;
+        color:#9f9f9f;
+        display: inline-block;
+      }
+    }
+  }
+}

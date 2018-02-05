@@ -1,0 +1,72 @@
+.header_navbar_container{
+  display: flex;
+  width:100%;
+  align-items: center;
+  flex:auto;
+  &-item{
+    flex:auto;
+
+    &_social{
+      display: flex;
+      float:right;
+      justify-content: space-between;
+      flex:auto;
+      a{
+        border-right:1px solid #fff;
+        padding:0 5px;
+      }
+    }
+
+    &_langs{
+      float:right;
+      margin-left:10px;
+      &-current{
+        position: relative;
+        padding-right:15px;
+        cursor:pointer;
+        &:after{
+          content: "\f078";
+          right:0;
+          font-size: 10px;
+          color:#fff;
+          position: absolute;
+          top:50%;
+          transform: translateY(-50%);
+        }
+      }
+    }
+    &.menu{
+      text-align: right;
+      ul{
+        list-style-type: none;
+        li{
+          display: inline-block;
+          a{
+            padding: 0 10px;
+            color:#fff;
+            text-transform: uppercase;
+          }
+        }
+      }
+    }
+    &_mail{
+      a{
+        text-transform: uppercase;
+        padding-right:25px;
+        position: relative;
+        color:#fff;
+        &:after{
+          content: "";
+          background: url('../images/header_mail.png');
+          width:21px;
+          height: 21px;
+          position: absolute;
+          right:0;
+          top:50%;
+          transform: translateY(-50%);
+        }
+      }
+    }
+
+  }
+}

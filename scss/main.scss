@@ -1,0 +1,18 @@
+@import "components/font-awesome/fontawesome";
+@import "components/owlcarousel/owl.carousel";
+@import "components/owlcarousel/owl.theme.default";
+
+@import "core/vars";
+@import "core/general";
+
+@import "blocks/header_navbar";
+@import "blocks/header_description";
+@import "blocks/main_navbar";
+@import "blocks/banner_container";
+@import "blocks/home_products";
+@import "blocks/products_carousel";
+
+
+@import "pages/home";
+
+@import "core/media";

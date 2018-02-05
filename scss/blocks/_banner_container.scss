@@ -1,0 +1,23 @@
+.banner_container{
+  position: relative;
+  top: -30px;
+
+  #banner_carousel{
+    .owl-stage-outer{
+      box-shadow: 0 0 15px;
+      border-radius: 15px;
+    }
+    .owl-nav.disabled + .owl-dots{
+      margin-top:-30px;
+      position: relative;
+    }
+    .owl-dot{
+      width: 14px;
+      height: 14px;
+      background: url(../images/dot.png) center center no-repeat;
+    }
+    .owl-dot.active{
+      background: url(../images/dot_active.png) center center no-repeat;
+    }
+  }
+}

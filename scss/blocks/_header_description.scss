@@ -1,0 +1,16 @@
+.header_description_cointainer{
+  display: flex;
+  justify-content: space-between;
+  &-item{
+    display: flex;
+    align-items: center;
+
+    &__description{
+      margin-left:10px;
+      p{
+        padding-left:10px;
+        border-left: 1px solid #cbcbcb;
+      }
+    }
+  }
+}
