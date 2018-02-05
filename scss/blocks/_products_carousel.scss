@@ -12,8 +12,24 @@
       border-radius: 15px;
       box-shadow: 0 0 15px;
       overflow: hidden;
-      .out-stock{
-
+      &.out-stock{
+        .products_carousel_container-carousel__item{
+          &-header{
+            background: #f17171;
+          }
+          &-bottom{
+            background: #aaaaaa;
+            button{
+              cursor:default;
+              outline: 0 none;
+            }
+          }
+        }
+      }
+      &-like{
+        position: absolute;
+        right: 25px;
+        top: 55px;
       }
       &-bottom{
         background: #a4e243;
