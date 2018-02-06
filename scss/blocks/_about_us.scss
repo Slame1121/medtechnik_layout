@@ -1,0 +1,30 @@
+.about_us_container{
+  &-header{
+    position: relative;
+    padding:15px 0;
+    margin-bottom: 20px;
+    p{
+      font-size: 30px;
+      font-weight: bold;
+    }
+
+    &:after{
+      content: "";
+      width:15%;
+      height: 6px;
+      position: absolute;
+      background: #e8e8e8;
+      bottom:0;
+      left:0;
+      border-radius: 3px;
+    }
+  }
+  &-content{
+    padding-right:20px;
+    max-height: 250px;
+    p{
+      color:#676767;
+
+    }
+  }
+}

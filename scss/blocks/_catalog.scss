@@ -1,13 +1,16 @@
 .catalog_container{
   border-radius: 15px;
+  background: #fff;
   box-shadow: 0 0 15px;
   overflow: hidden;
   position: relative;
   &-content{
+
     &__item{
       width:25%;
       float:left;
       margin:15px 0;
+
       a{
         display: flex;
         justify-content: flex-start;
@@ -79,6 +82,7 @@
     position: absolute;
     width: 100%;
     box-shadow: 0 0 15px;
+    display: none;
     &__content{
 
       &-item{

@@ -1,0 +1,31 @@
+.our_features_container{
+  display: flex;
+  &-item{
+    display: flex;
+    justify-content: center;
+    max-width: 33%;
+    &__thumb{
+      display: flex;
+      align-items: flex-end;
+      img{
+        width:auto;
+      }
+    }
+    &__description{
+      text-align: center;
+      color:#777777;
+      padding:0 15px;
+      &-header{
+        p{
+          font-size: 30px;
+
+        }
+      }
+      &-content{
+        p{
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}

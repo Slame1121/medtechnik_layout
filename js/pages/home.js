@@ -43,8 +43,25 @@ $(document).ready(function(){
 			});
 
 		},
+		setScroll: function () {
+			$('.about_us_container-content').slimScroll({
+				height: '250px',
+				position: 'right',
+				color: '#4a88db',
+				railColor: '#eae4fa',
+				opacity: 1,
+				railOpacity: 1,
+				railVisible: true,
+				alwaysVisible: true,
+				railBorderRadius: '0',
+				borderRadius : '0',
+				size: '6px'
+			});
+		},
 		init: function(){
 			this.initsliders();
+
+			this.setScroll();
 		}
 	};
 	Home.init();
